@@ -1,13 +1,13 @@
 ---
 title: "Learn How to Pre-render Pages Using Static Generation with Next.js"
 excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-coverImage: "https://raw.githubusercontent.com/vercel/next.js/canary/examples/blog-starter/public/assets/blog/hello-world/cover.jpg"
+coverImage: "https://res.cloudinary.com/dk7urhntn/image/upload/v1669213936/cover_ffb8zn.jpg"
 date: "2020-03-16T05:35:07.322Z"
 author:
   name: Tim Neutkens
-  picture: "https://raw.githubusercontent.com/vercel/next.js/canary/examples/blog-starter/public/assets/blog/authors/tim.jpeg"
+  picture: "https://res.cloudinary.com/dk7urhntn/image/upload/v1669214336/tim_vzzb5c.jpg"
 ogImage:
-  url: "https://raw.githubusercontent.com/vercel/next.js/canary/examples/blog-starter/public/assets/blog/hello-world/cover.jpg"
+  url: "https://res.cloudinary.com/dk7urhntn/image/upload/v1669213936/cover_ffb8zn.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
