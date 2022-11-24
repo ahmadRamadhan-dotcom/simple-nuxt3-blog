@@ -8,7 +8,7 @@
         : 'w-[90%] mb-14 sm:w-[600px] md:w-[340px] lg:w-[450px] xl:w-[570px] 2xl:w-[700px] min-h-[10em] md:min-h-[20em]'
     "
   >
-    <NuxtLink :to="data._path">
+    <NuxtLink :to="`/posts${data._path}`">
       <img id="cover_image" :src="data.coverImage" alt="" />
       <p
         id="title"
@@ -22,12 +22,13 @@
     </NuxtLink>
     <div v-if="index == 0" class="md:grid md:grid-cols-2 md:gap-10 md:mt-10">
       <div class="">
-        <p
+        <NuxtLink
+          :to="`/posts${data._path}`"
           id="title"
           class="hidden md:block hover:underline text-4xl xl:text-[44px] font-normal mt-7"
         >
           {{ data.title }}
-        </p>
+        </NuxtLink>
         <p id="date" class="font-normal mt-5 text-lg">{{ data.date }}</p>
       </div>
       <div>
