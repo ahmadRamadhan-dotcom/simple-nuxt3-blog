@@ -14,8 +14,6 @@
 <script setup>
 const postData = await queryContent("/post").where({ _partial: false }).find();
 
-console.log(postData);
-
 useHead({
   title: "Nuxt Blog Example with Markdown",
 });

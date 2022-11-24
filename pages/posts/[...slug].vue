@@ -63,5 +63,4 @@ useHead({
   title: `${post.value.title}`,
 });
 
-console.log(post);
 </script>
